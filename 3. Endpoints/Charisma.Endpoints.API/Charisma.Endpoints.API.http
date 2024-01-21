@@ -1,0 +1,6 @@
+@Charisma.Endpoints.API_HostAddress = http://localhost:5116
+
+GET {{Charisma.Endpoints.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

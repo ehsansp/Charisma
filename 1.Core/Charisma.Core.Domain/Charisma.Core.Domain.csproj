@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Customers\Entities\" />
+    <Folder Include="Orders\Events\" />
+    <Folder Include="Products\Entities\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Framework\1.Core\Framework.Core.Domain\Framework.Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
